@@ -32,6 +32,6 @@ setup(
     description="A small python package for CNN app",
     packages=find_packages(),
     install_requires=get_requirements('requirements.txt')
-    package_dir={"": "src"} 
+    
 )
 
