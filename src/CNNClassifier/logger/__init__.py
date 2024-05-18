@@ -4,8 +4,7 @@ from datetime import datetime
 
 LOG_DIR = 'logs'
 LOG_DIR_PATH = os.path.join(os.getcwd(),LOG_DIR)
-
-os.mkdirs(LOG_DIR_PATH,exist_ok = True)
+os.makedirs(LOG_DIR_PATH,exist_ok = True)
 
 CURRENT_TIME_STAMP = f"{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}"
 
