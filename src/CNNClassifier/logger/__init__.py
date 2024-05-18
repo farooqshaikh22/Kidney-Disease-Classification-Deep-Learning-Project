@@ -13,7 +13,7 @@ file_name = f"log_{CURRENT_TIME_STAMP}.log"
 log_file_path = os.path.join(LOG_DIR_PATH,file_name)
 
 logging.basicConfig(
-    file_name = log_file_path,
+    filename = log_file_path,
     filemode = "w",
     format = '[%(asctime)s] %(lineno)d %(name)s:%(levelname)s:%(message)s',
     level = logging.INFO
